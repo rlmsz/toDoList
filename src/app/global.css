@@ -1,0 +1,16 @@
+text {
+    letter-spacing: -0.02em;
+}
+
+body{
+    margin:0;
+    position:relative;
+}
+html{
+    position:relative;
+}
+html, body {
+    width: 100%;
+    height: 100vh; 
+    margin: 0;
+  }

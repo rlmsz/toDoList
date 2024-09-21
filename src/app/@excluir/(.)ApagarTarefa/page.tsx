@@ -27,7 +27,7 @@ export default function Page(){
     <>
     <div className={styles.blur}>
       </div>
-      <div className={styles.modal}>
+      <div className={styles.modalApagar}>
       <text>Deletar Tarefa</text>  
       <label className={styles.label}>Tem certeza que você deseja deletar essa tarefa?</label>
       <div className={styles.botoesModal}>

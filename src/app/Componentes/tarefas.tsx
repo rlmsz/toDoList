@@ -65,7 +65,7 @@ function Tarefas(){
         localStorage.setItem('tarefas',JSON.stringify(updatedTarefas))};
     // Retorna as duas listas, filtrando cada tarefa
     return (
-        <div className={styles.colunaCentral}>
+        <div className={styles.conteudoCentral}>
             <div className={styles.tarefasContainer}>
                 <text>Suas tarefas de hoje</text>
                 <div className={styles.tarefasLista}>

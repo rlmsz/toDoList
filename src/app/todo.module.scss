@@ -25,6 +25,10 @@
   color: rgba(0, 0, 0, 0.54);
   line-height: 19.36px;
 }
+
+.main{
+  margin-top: 24px;
+}
 .headerConteudo {
   display: flex;
   justify-content: space-between;
@@ -40,7 +44,6 @@
   justify-content: center;
   padding-bottom: 24px;
   box-shadow: 0px 1px rgba(215, 221, 233, 1);
-  top: 24px;
   margin-right: 56px;
   margin-left: 56px;
   position: relative;
@@ -51,7 +54,7 @@
 
 }
 
-.colunaCentral {
+.conteudoCentral {
   margin-top: 40px;
   display: flex;
   margin-right: auto;
@@ -163,6 +166,7 @@
   width: 100%;
   box-sizing: border-box;
   font-size: 16px;
+  overflow:hidden;
 }
 
 .nomeTarefaFinalizada {
@@ -170,6 +174,7 @@
   color: rgba(0, 0, 0, 0.54);
   text-decoration: line-through;
   font-size: 16px;
+  overflow:hidden;
 }
 
 .botaoAdicionar {

@@ -23,7 +23,8 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="pt-br" className={inter_Tight.className}>
-      <body className={styles.bodyBlur}>
+      <body >
+        <div className={styles.main}>
           <div className={styles.headerContainer}>
             <div className={styles.headerConteudo}>
               <Image src={logo} width={150} height={36} alt="logo"></Image>
@@ -40,6 +41,7 @@ export default function RootLayout({
         {excluir}
         </>
         </TarefasProvider>
+      </div>
       </body>
     </html>
   );

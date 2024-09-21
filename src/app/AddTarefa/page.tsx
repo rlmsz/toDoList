@@ -1,3 +1,4 @@
+'use client'
 import { useRouter } from "next/navigation";
 import Tarefas from "../Componentes/tarefas";
 
